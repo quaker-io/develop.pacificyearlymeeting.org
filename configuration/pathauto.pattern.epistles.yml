@@ -1,0 +1,22 @@
+uuid: f723b0c7-f7fd-4aef-ad00-b9f09c7ebf48
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: epistles
+label: Epistles
+type: 'canonical_entities:node'
+pattern: 'epistles/[node:field_tags]/[node:title]'
+selection_criteria:
+  51abd1b2-c77c-4a7b-a461-9774be4ba823:
+    id: node_type
+    bundles:
+      epistle: epistle
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 51abd1b2-c77c-4a7b-a461-9774be4ba823
+selection_logic: and
+weight: -5
+relationships: {  }
