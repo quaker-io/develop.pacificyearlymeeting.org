@@ -1,0 +1,22 @@
+uuid: 30885329-636a-4807-a31c-282b9f32dd5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.event
+  module:
+    - text
+id: node.event.body
+field_name: body
+entity_type: node
+bundle: event
+label: Description
+description: 'Add event details. If possible, provide a brief summary of the event by clicking "Edit sumary".'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

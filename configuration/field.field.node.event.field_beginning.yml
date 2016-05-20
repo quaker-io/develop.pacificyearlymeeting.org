@@ -1,0 +1,21 @@
+uuid: 42623d0d-4e03-4e2a-bf36-54ccb136beb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_beginning
+    - node.type.event
+  module:
+    - datetime
+id: node.event.field_beginning
+field_name: field_beginning
+entity_type: node
+bundle: event
+label: Beginning
+description: 'On what date does the event begin?'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

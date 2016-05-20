@@ -1,0 +1,17 @@
+uuid: a524a671-7af8-442f-9e01-1a78b7da80be
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'Event, such as annual session or RepCom.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

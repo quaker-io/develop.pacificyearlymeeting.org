@@ -1,18 +1,19 @@
-uuid: 37d3e2ca-0237-47a1-8500-ce69bae59031
+uuid: 54c61e58-b45f-42ba-ac02-2b7fed49406e
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.epistle.body
-    - field.field.node.epistle.field_group
-    - field.field.node.epistle.field_related_event
-    - node.type.epistle
+    - field.field.node.event.body
+    - field.field.node.event.field_beginning
+    - field.field.node.event.field_end
+    - node.type.event
   module:
+    - datetime
     - text
     - user
-id: node.epistle.default
+id: node.event.default
 targetEntityType: node
-bundle: epistle
+bundle: event
 mode: default
 content:
   body:
@@ -21,20 +22,22 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-  field_group:
+  field_beginning:
     weight: 102
     label: above
     settings:
-      link: true
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
-    type: entity_reference_label
-  field_related_event:
+    type: datetime_default
+  field_end:
     weight: 103
     label: above
     settings:
-      link: true
+      format_type: medium
+      timezone_override: ''
     third_party_settings: {  }
-    type: entity_reference_label
+    type: datetime_default
   links:
     weight: 100
 hidden: {  }
