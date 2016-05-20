@@ -7,7 +7,7 @@ dependencies:
 id: announcements
 label: Announcements
 type: 'canonical_entities:node'
-pattern: 'announcement/[node:created:html_date]/[node:title]'
+pattern: 'announcements/[node:created:html_date]/[node:title]'
 selection_criteria:
   87c5468f-7018-408e-a608-8aa024df43c8:
     id: node_type
