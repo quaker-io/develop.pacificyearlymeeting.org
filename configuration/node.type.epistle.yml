@@ -1,0 +1,17 @@
+uuid: 76e22d7f-f104-4451-ab12-188e21ddb8bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Epistle
+type: epistle
+description: 'Epistle letter issued by a group such as a meeting or committee.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

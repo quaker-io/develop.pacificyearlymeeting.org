@@ -1,0 +1,22 @@
+uuid: ffe86949-9b1b-41bb-8700-dfd0096fda09
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.epistle
+  module:
+    - text
+id: node.epistle.body
+field_name: body
+entity_type: node
+bundle: epistle
+label: Body
+description: 'Provide the full text of the Epistle. Click "Edit Summary" to provide a brief summary of the spirit of the letter.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

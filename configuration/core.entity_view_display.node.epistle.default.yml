@@ -1,0 +1,24 @@
+uuid: 37d3e2ca-0237-47a1-8500-ce69bae59031
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.epistle.body
+    - node.type.epistle
+  module:
+    - text
+    - user
+id: node.epistle.default
+targetEntityType: node
+bundle: epistle
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
