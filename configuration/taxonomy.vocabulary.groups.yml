@@ -1,0 +1,9 @@
+uuid: 83d666f7-7138-433a-a100-f7975be5bd4d
+langcode: en
+status: true
+dependencies: {  }
+name: Groups
+vid: groups
+description: 'Groups of people, such as committees.'
+hierarchy: 0
+weight: 0
