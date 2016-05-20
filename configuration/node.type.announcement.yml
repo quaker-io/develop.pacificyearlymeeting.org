@@ -1,0 +1,17 @@
+uuid: 83cc0d86-974f-4fce-8405-5b758ba09e36
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Announcement
+type: announcement
+description: 'General announcement for the PYM community.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

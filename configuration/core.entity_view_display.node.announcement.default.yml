@@ -1,0 +1,24 @@
+uuid: f5c7c908-59dd-4220-8a4b-750dc252b7dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.announcement.body
+    - node.type.announcement
+  module:
+    - text
+    - user
+id: node.announcement.default
+targetEntityType: node
+bundle: announcement
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 100
+hidden: {  }
