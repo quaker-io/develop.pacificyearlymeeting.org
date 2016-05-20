@@ -1,10 +1,17 @@
 # Content types
 
+- Announcement
 - Article
 - Epistle
 - Event
 - Report
 
+## Announcement
+
+Fields:
+
+- Title
+- Body
 
 ## Article
 
@@ -14,6 +21,23 @@ Fields:
 - Body
 - Author
 
+## Epistle
+
+Fields:
+
+- Title
+- Body
+- Group
+- Related event
+
+## Event
+
+Fields
+
+- Title
+- Beginning
+- End
+- Location
 
 # Taxonomies
 
