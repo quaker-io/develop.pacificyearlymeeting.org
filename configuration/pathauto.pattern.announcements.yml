@@ -9,14 +9,14 @@ label: Announcements
 type: 'canonical_entities:node'
 pattern: 'announcements/[node:created:html_date]/[node:title]'
 selection_criteria:
-  87c5468f-7018-408e-a608-8aa024df43c8:
+  5dff0b77-7a09-4190-a804-4a3887e30ed7:
     id: node_type
     bundles:
       announcement: announcement
     negate: false
     context_mapping:
       node: node
-    uuid: 87c5468f-7018-408e-a608-8aa024df43c8
+    uuid: 5dff0b77-7a09-4190-a804-4a3887e30ed7
 selection_logic: and
 weight: -5
 relationships: {  }
